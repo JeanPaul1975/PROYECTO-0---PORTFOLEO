@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+$tablet: 800px;
+$desktop:1200px;
+
+header{
+    width: 100dvh;
+    width: 100dvh;
+    max-height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 2rem;
+    @media only screen and (min-width:$tablet){
+        row-gap: 4rem;
+    }
+    @media only screen and (min-width:$tablet){
+        row-gap: 6rem;
+    }
+    .contenedor-ficha{
+        width: 100%;
+        height: 300px;
+        background-color: aqua;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
